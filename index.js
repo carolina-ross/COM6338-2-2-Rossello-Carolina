@@ -13,9 +13,9 @@ var currentYear = date.getFullYear();
 if( result = true ) {
 year_born = currentYear - age;
 alert("You are born in " + year_born)
-} else {
-newAge = age + 1;
-calculatedYear = currentYear - newAge;
+} else if( result = false ) {
+calculatedYear = currentYear - age - 1;
 alert("You are born in " + calculatedYear)
 }
+
 }
