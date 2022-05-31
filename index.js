@@ -6,6 +6,16 @@ var age = prompt ("How old are you?");
 age = parseInt(age,10);
 var result = confirm ("Have you celebrated a birthday yet this year?")
 
-var currentDate = new Date();
-var currentYear = currentDate.getFullYear();
+// To calculate born year
+var date = new Date(); 
+var currentYear = date.getFullYear();
+
+if( result = true ) {
+year_born = currentYear - age;
+alert("You are born in " + year_born)
+} else {
+newAge = age + 1;
+calculatedYear = currentYear - newAge;
+alert("You are born in " + calculatedYear)
+}
 }
