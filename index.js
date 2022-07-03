@@ -10,10 +10,10 @@ var result = confirm ("Have you celebrated a birthday yet this year?")
 var currentYear = new Date().getFullYear();
 
 if( result == true ) {
-year_born = currentYear - age;
+var year_born = currentYear - age;
 alert("You are born in " + year_born)
 } else if( result == false ) {
-calculatedYear = currentYear - age - 1;
+var calculatedYear = currentYear - age - 1;
 alert("You are born in " + calculatedYear)
 }
 
